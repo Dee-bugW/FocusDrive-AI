@@ -13,7 +13,7 @@ ALARM_COOLDOWN = 3.0
 
 #calling AI
 print("Loading AI model...")
-model = YOLO("yolo11n.pt")   # FIXED: model must be loaded
+model = YOLO("yolo11n.pt")   
 print("AI model loaded.")
 
 #adding audio for alerts 
