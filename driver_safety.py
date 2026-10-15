@@ -162,7 +162,7 @@ while True:
                 cv2.FONT_HERSHEY_SIMPLEX, 0.6,
                 (200, 200, 200), 2)
 
-    cv2.imshow("FocusDrive AI", frame)   # FIXED: imShow → imshow
+    cv2.imshow("FocusDrive AI", frame)  
     #exit 
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
